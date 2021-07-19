@@ -526,7 +526,7 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y"
   clear()
   play_game()
   
-```python
+```
 ##### https://replit.com/@Aristo00071/blackjack-start#main.py
 
 
