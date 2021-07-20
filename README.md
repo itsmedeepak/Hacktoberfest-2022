@@ -532,10 +532,9 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y"
 
 ___
 
-## Day 11
+## Day 12
 
-### PROJECT-11 BLACK JACK GAME
-
+### PROJECT-12 GUESS THE NUMBER
 ```python
 
 from random import randint
