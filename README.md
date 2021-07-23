@@ -599,9 +599,9 @@ game()
 
 ___
 
-## Day 12
+## Day 14
 
-### PROJECT-12 GUESS THE NUMBER
+### PROJECT-14 HIGHER-LOWER
 
 ```python
 
