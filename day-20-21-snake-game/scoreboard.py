@@ -1,5 +1,4 @@
 from turtle import Turtle
-from food import Food
 
 
 class ScoreBoard(Turtle):
