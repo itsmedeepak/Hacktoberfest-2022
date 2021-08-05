@@ -6,13 +6,6 @@ from player import Player
 from car_manager import CarManager
 from scoreboard import Scoreboard
 
-'''
-1. creating turtle that move up and down with up and down key
-2. generate random turtle in x axis and move in x direction
-3. detect collision
-4. level up
-5. scoreboard
-'''
 
 screen = Screen()
 screen.setup(width=600, height=600)
