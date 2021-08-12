@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import random
 import pyperclip
+import json
 
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
@@ -32,12 +33,29 @@ def pass_gen():
     pyperclip.copy(password_gen)
 
 
+# ---------------------------- SEARCH ------------------------------- #
+def search():
+    with open("database.json", "r") as data_file:
+        get_data = json.load(data_file)
+        get_site_entry = site_entry.get()
+        result = get_data[get_site_entry]
+        pass_entry.delete(0, END)
+        pass_entry.insert(0, result['password'])
+
+
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
 def add_detail():
     site = site_entry.get()
     password = pass_entry.get()
     email = email_entry.get()
+
+    new_data = {
+        site: {
+            "email": email,
+            "password": password,
+        }
+    }
 
     print(site, password, email)
     if len(site) == 0 or len(password) == 0 or len(email) == 0:
@@ -49,8 +67,13 @@ def add_detail():
                                             f"Website:{site}\n\nIs it ok to save ?\n")
 
         if is_ok:
-            with open("data.txt", "a") as data:
-                data.write(f"{site} | {email} | {password} \n ")
+            data = None
+            with open("database.json", "r") as data_file:
+                data = json.load(data_file)
+                data.update(new_data)
+
+            with open("database.json", "w") as files:
+                json.dump(data, files, indent=4)
                 site_entry.delete(0, END)
                 pass_entry.delete(0, END)
 
@@ -67,11 +90,14 @@ canvas.create_image(100, 100, image=logo_img)
 canvas.grid(column=1, row=0)
 
 label_site = Label(text="Website :")
-label_site.grid(column=0, row=1)
+label_site.grid(column=0, row=1, sticky=W)
 label_site.config(padx=5, pady=10)
 
-site_entry = Entry(width=40, borderwidth=5, relief=FLAT)
-site_entry.grid(column=1, row=1, columnspan=2)
+site_entry = Entry(width=23, borderwidth=5, relief=FLAT)
+site_entry.grid(column=1, row=1, sticky=W)
+
+search_btn = Button(text="Search", width=13, command=search)
+search_btn.grid(column=2, row=1, sticky=W)
 
 label_email = Label(text="Email/Username :")
 label_email.grid(column=0, row=2)
