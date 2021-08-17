@@ -5,8 +5,8 @@ from twilio.rest import Client
 API_KEY = "33234c0b48ef3c48449d0da2e72c566a"
 END_POINT = "https://api.openweathermap.org/data/2.5/onecall"
 
-account_sid = 'AC7c30f5ed181b22f7918315cc7d731c8e'
-auth_token = '60cc4554667a0e2905c0742e9f5544d2'
+account_sid = 'PLEASE_INSERT_AUTH_KEY'
+auth_token = 'PLEASE_INSERT_AUTH_KEY'
 
 
 def send_sms():
