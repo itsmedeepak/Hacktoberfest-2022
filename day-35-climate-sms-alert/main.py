@@ -2,7 +2,7 @@ import requests
 import os
 from twilio.rest import Client
 
-API_KEY = "33234c0b48ef3c48449d0da2e72c566a"
+API_KEY = "PLEASE_INSERT_WEATHER_API"
 END_POINT = "https://api.openweathermap.org/data/2.5/onecall"
 
 account_sid = 'PLEASE_INSERT_AUTH_KEY'
