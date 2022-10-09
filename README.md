@@ -22,7 +22,7 @@
 ```
 
 
-### PROJECT-1 Band Generator name 
+### PROJECT-1 Band Generator name
 
 ```python
 
@@ -31,8 +31,7 @@ city =input("Enter the city you grew up\n")
 pet_name = input("Enter your pet name\n")
 print(city+" "+ pet_name)
 ```
-#### run
-##### https://band-name-generator-end.appbrewery.repl.run/
+[Run this project](https://band-name-generator-end.appbrewery.repl.run/) 
 ___
 
 
@@ -46,8 +45,7 @@ tip=(bill/distribution)*(1+(tip_percent/100))
 ftip= round(tip,2)
 print(f"Each person should pay ${ftip}")
 ```
-#### run
-###### https://replit.com/@Aristo00071/tip-calculator-start#main.py
+[Run this project](https://replit.com/@Aristo00071/tip-calculator-start#main.py/) 
 ___
 
 
@@ -97,8 +95,9 @@ if choice1 == "left":
 else:
   print("You fell into a hole. Game Over.")
   ```
-  #### run
-  ##### https://replit.com/@Aristo00071/treasure-island-end#main.py
+  
+[Run this project]https://replit.com/@Aristo00071/treasure-island-end#main.py) 
+  
   ___
 
 ### PROJECT-4 ROCK PAPER SCISSORS
@@ -154,8 +153,8 @@ elif computer_choice == user_choice:
   print("It's a draw")
   
 ```
-#### run
-##### https://replit.com/@Aristo00071/rock-paper-scissors-start#main.py
+[Run this project](https://replit.com/@Aristo00071/rock-paper-scissors-start#main.py) 
+
 ___
 
 
@@ -195,16 +194,14 @@ for char in password_list:
 
 print(f"Your password is: {password}")
 ```
-Run
-##### https://replit.com/@Aristo00071/password-generator-end#main.py
-
+[Run this project](https://replit.com/@Aristo00071/password-generator-end#main.py) 
 ___
 
 
 ### PROJECT-6 Automating Robot
 
 >automating robot to find way to reach destination.  
->Please go through https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json
+>Please go through [this link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
 ___
 
 
@@ -285,8 +282,8 @@ while not end_of_game:
    
     
 ```
- ##### https://replit.com/@Aristo00071/Day-7-Hangman-5-End#hangman_art.py
-    ___
+[Run this project](https://replit.com/@Aristo00071/Day-7-Hangman-5-End#hangman_art.py) 
+
 
 
 ### PROJECT-8 PASSWORD ENCRYPTER DECRYPTER
@@ -341,7 +338,9 @@ while not end:
 		print("Goodbye")
     
 ```
-##### https://replit.com/@Aristo00071/caesar-cipher-4-start#main.py
+
+[Run this project]( https://replit.com/@Aristo00071/caesar-cipher-4-start#main.py) 
+
 ___
     
 
@@ -379,7 +378,9 @@ while not bidding_finished:
     clear()
   
 ```
-##### https://replit.com/@Aristo00071/blind-auction-completed#main.py
+
+[Run this project](https://replit.com/@Aristo00071/blind-auction-completed#main.py) 
+
 ___
 
 
@@ -433,7 +434,8 @@ def calculator():
 calculator()
 
 ```
-##### https://replit.com/@Aristo00071/calculator-final#main.py
+[Run this project]( https://replit.com/@Aristo00071/calculator-final#main.py ) 
+
 ___
 
 
@@ -543,7 +545,8 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y"
   play_game()
   
 ```
-##### https://replit.com/@Aristo00071/blackjack-start#main.py
+
+[Run this project]( https://replit.com/@Aristo00071/blackjack-start#main.py ) 
 
 
 ___
@@ -608,7 +611,7 @@ game()
 
 ```
 
-##### https://replit.com/@Aristo00071/guess-the-number-start#main.py
+[Run this project]( https://replit.com/@Aristo00071/guess-the-number-start#main.py ) 
 
 
 
@@ -685,7 +688,7 @@ def game():
 game()
 
 ```
-##### https://replit.com/@Aristo00071/higher-lower-start#main.py
+[Run this project]( https://replit.com/@Aristo00071/higher-lower-start#main.py ) 
 
 ___
 
