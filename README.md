@@ -1,3 +1,5 @@
+# PYTHON-PROJECTS
+
 ## 🌎 How to contribute to this Repository ?
 
 ```
@@ -19,10 +21,6 @@
    
 ```
 
-# 100-Days-of-Code
-___
-
-## Day1
 
 ### PROJECT-1 Band Generator name 
 
@@ -37,7 +35,6 @@ print(city+" "+ pet_name)
 ##### https://band-name-generator-end.appbrewery.repl.run/
 ___
 
-## Day2
 
 ### PROJECT-2 TIP CALCULATOR
 ```python
@@ -53,7 +50,6 @@ print(f"Each person should pay ${ftip}")
 ###### https://replit.com/@Aristo00071/tip-calculator-start#main.py
 ___
 
-## Day3
 
 ### PROJECT-3 Treasure-ISLAND
 
@@ -104,7 +100,6 @@ else:
   #### run
   ##### https://replit.com/@Aristo00071/treasure-island-end#main.py
   ___
-  ## Day4
 
 ### PROJECT-4 ROCK PAPER SCISSORS
 ```python
@@ -162,7 +157,7 @@ elif computer_choice == user_choice:
 #### run
 ##### https://replit.com/@Aristo00071/rock-paper-scissors-start#main.py
 ___
-  ## Day5
+
 
 ### PROJECT-5 Password Generator Project
 
@@ -204,14 +199,14 @@ Run
 ##### https://replit.com/@Aristo00071/password-generator-end#main.py
 
 ___
-  ## Day6
+
 
 ### PROJECT-6 Automating Robot
 
 >automating robot to find way to reach destination.  
 >Please go through https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json
 ___
-  ## Day7
+
 
 ### PROJECT-7 Hangman
 
@@ -292,7 +287,7 @@ while not end_of_game:
 ```
  ##### https://replit.com/@Aristo00071/Day-7-Hangman-5-End#hangman_art.py
     ___
-## Day 8
+
 
 ### PROJECT-8 PASSWORD ENCRYPTER DECRYPTER
 
@@ -349,7 +344,7 @@ while not end:
 ##### https://replit.com/@Aristo00071/caesar-cipher-4-start#main.py
 ___
     
-## Day 9
+
 
 ### PROJECT-8 BLIND AUCTION
 ```python
@@ -386,7 +381,7 @@ while not bidding_finished:
 ```
 ##### https://replit.com/@Aristo00071/blind-auction-completed#main.py
 ___
-## Day 10
+
 
 ### PROJECT-10 CALCULATOR USING DICTIONARY
 ```python
@@ -441,7 +436,7 @@ calculator()
 ##### https://replit.com/@Aristo00071/calculator-final#main.py
 ___
 
-## Day 11
+
 
 ### PROJECT-11 BLACK JACK GAME
 
@@ -553,7 +548,6 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y"
 
 ___
 
-## Day 12
 
 ### PROJECT-12 GUESS THE NUMBER
 ```python
@@ -620,7 +614,7 @@ game()
 
 ___
 
-## Day 14
+
 
 ### PROJECT-14 HIGHER-LOWER
 
