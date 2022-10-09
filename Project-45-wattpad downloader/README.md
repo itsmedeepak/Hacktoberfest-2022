@@ -6,5 +6,5 @@
 ![enter image description here](https://i.ibb.co/P9bd2tC/url.png)
 
 
-# 3. Paste it in the tkinter entry box and click download, you will have the EPUB file of the book whose url you just entered.
+# 3. Paste it in the tkinter entry box and click download, you will have the EPUB file of the book whose url you just entered in your doawnload folder.
 ![enter image description here](https://i.ibb.co/tBZfpWK/Screenshot-2022-10-10-002323.png) 
