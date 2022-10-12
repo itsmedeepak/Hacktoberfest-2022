@@ -25,14 +25,3 @@ python3 crypto.py
 ```
 
 depending upon the python version. Make sure that you are running the command from the same virtual environment in which the required modules are installed.
-
-## Output
-
-The top-100 cryptocurrencies are displayed along with some data about their performance
-
-![Screenshot of the GUI](https://i.postimg.cc/25TbtvJL/crypto.png)
-
-
-## Author
-
-[Ayush Jain](https://github.com/Ayushjain2205)
