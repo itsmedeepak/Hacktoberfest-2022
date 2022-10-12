@@ -33,7 +33,7 @@ P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 - Clone on your local machine
 
 ```terminal
-git clone https://github.com/fineanmol/Hacktoberfest2022.git
+git clone https://github.com/itsmedeepak/Hacktoberfest-2022.git
 ```
 - Navigate to project directory.
 ```terminal
