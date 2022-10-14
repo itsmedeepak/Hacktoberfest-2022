@@ -18,12 +18,12 @@ print(logo)
 end=False
 while not end:
 	direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
-	text = input("Type your message:\n").lower()
-	shift = int(input("Type the shift number:\n"))
+	text = input("Type your message here:\n").lower()
+	shift = int(input("Type the shift number here:\n"))
 	shift=shift%26
 	caesar(start_text=text, shift_amount=shift,cipher_direction=direction)
-	restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
+	restart = input("Do you want to go again (yes/no).\n")
 	if restart == "no":
 		end=True
-		print("Goodbye")
+		print("Thanks for visiting\n")
     
