@@ -6,8 +6,10 @@
 
 ### How to run the script
 Run the egg catcher file in any python environment
+
 - clone the repo
 - unzip it
 - open in pycharm or any editor 
+
 ![image](https://user-images.githubusercontent.com/96046430/195143086-8dd8098a-0317-4e60-9c60-1f173a49b020.png)
 
