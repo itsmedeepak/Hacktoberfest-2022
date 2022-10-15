@@ -1,5 +1,5 @@
 from random import randint
-words = ["apple","mango","computer","mouse","person","friend","father","mother","sister","brother","daughter","sibling","parents","guardian","neighbour"]
+words = ["apple","mango","computer","keyboard","mouse","person","friend","father","mother","sister","brother","daughter","sibling","parents","guardian","neighbour"]
 word = words[randint(0,len(words))]
 guess = ["*"] * len(word)
 wrong = []
@@ -10,7 +10,7 @@ while(attempts and guess.count('*')>0):
     char = input("Enter a char: ")
     char=char[0]
     if char in word:
-        print("correct..")
+        print("correct..whoooo")
         index = word.index(char)
         guess[index] = word[index]
     else:
@@ -22,7 +22,7 @@ while(attempts and guess.count('*')>0):
         
     print("word is {}".format("".join(guess)))
 if attempts==0:
-    print("Sorry! You lost the game.")
+    print("You lost the game. Play again")
     print("The word was {}".format(word))
 else:
     print("Congratulations! you got the word")
