@@ -2,5 +2,8 @@
 
 # Contributer Section:-
 
-Name : 
-Collage name :
+- Name : Ayush
+- Collage name : ISM Dhanbad
+
+<br>
+
