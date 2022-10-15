@@ -5,12 +5,12 @@ BMI=Weight/(Height*Height)
 print("your Body Mass Index is: ",BMI)
 if(BMI>0):
 	if(BMI<=16):
-		print("you are severely underweight")
+		print("your wight is too low")
 	elif(BMI<=18.5):
-		print("you are underweight")
+		print("your weight is less")
 	elif(BMI<=25):
-		print("you are Healthy")
+		print("your weight is perfect")
 	elif(BMI<=30):
-		print("you are overweight")
+		print("your weight is too high please do the exercise")
 	else: print("you are severely overweight")
-else:("enter valid details")
+else:("please enter valid height and weight")
