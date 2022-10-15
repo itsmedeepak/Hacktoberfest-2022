@@ -6,11 +6,11 @@ root = Tk()
 root.title("White Board")
 root.geometry("1050x570") 
 
-root.configure(bg="#f2f3f5")
+root.configure(bg="#ffffff")
 root.resizable(False,False) 
 current_x = 0
 current_y = 0
-color = 'black'
+color = '#000000'
 
 def locate_xy(work):
     global current_x, current_y
@@ -53,7 +53,7 @@ colors.place(x=30,y=60)
 
 def display_pallete():
     id = colors.create_rectangle((10,10,30,30), fill="red")
-    colors.tag_bind(id, '<Button-1>', lambda x: show_color('red'))
+    colors.tag_bind(id, '<Button-1>', lambda x: show_color('brown'))
 
     id = colors.create_rectangle((10,40,30,60), fill="yellow")
     colors.tag_bind(id, '<Button-1>', lambda x: show_color('yellow'))
@@ -66,12 +66,12 @@ def display_pallete():
     colors.tag_bind(id, '<Button-1>', lambda x: show_color('blue'))
 
 
-    id = colors.create_rectangle((10,130,30,150), fill="pink")
-    colors.tag_bind(id, '<Button-1>', lambda x: show_color('pink'))
+    id = colors.create_rectangle((10,130,30,150), fill="crimson")
+    colors.tag_bind(id, '<Button-1>', lambda x: show_color('crimson'))
 
 
-    id = colors.create_rectangle((10,160,30,180), fill="purple")
-    colors.tag_bind(id, '<Button-1>', lambda x: show_color('purple'))
+    id = colors.create_rectangle((10,160,30,180), fill="blue")
+    colors.tag_bind(id, '<Button-1>', lambda x: show_color('blue'))
 
     id = colors.create_rectangle((10,190,30,210), fill="white")
     colors.tag_bind(id, '<Button-1>', lambda x: show_color('white'))
@@ -84,7 +84,7 @@ def display_pallete():
     colors.tag_bind(id, '<Button-1>', lambda x: show_color('orange'))
 
 display_pallete()
-canvas = Canvas(root,width=930,height=500,background="white",cursor="hand2")
+canvas = Canvas(root,width=1030,height=800,background="white",cursor="hand2")
 canvas.place(x=100,y=10)
 
 canvas.bind('<Button-1>', locate_xy)
