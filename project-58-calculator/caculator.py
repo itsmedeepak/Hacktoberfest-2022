@@ -9,15 +9,17 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     return num1 / num2
-
+def mod(num1,num2):
+    return num1 % num2
 print("Please select operation -\n" \
         "1. Add\n" \
         "2. Subtract\n" \
         "3. Multiply\n" \
-        "4. Divide\n")
+        "4. Divide\n" \
+        "5. Modulus\n")
 
 
-select = int(input("Select operations form 1, 2, 3, 4 :"))
+select = int(input("Select operations form 1, 2, 3, 4, 5 :"))
 
 number_1 = int(input("Enter first number: "))
 number_2 = int(input("Enter second number: "))
@@ -37,5 +39,7 @@ elif select == 3:
 elif select == 4:
     print(number_1, "/", number_2, "=",
                     divide(number_1, number_2))
+elif select == 5:
+    print(number_1, "/", number_2, "=", mod(number_1,number_2))
 else:
     print("Invalid input")
