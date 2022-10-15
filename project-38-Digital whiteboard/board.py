@@ -84,7 +84,7 @@ def display_pallete():
     colors.tag_bind(id, '<Button-1>', lambda x: show_color('orange'))
 
 display_pallete()
-canvas = Canvas(root,width=1030,height=800,background="white",cursor="hand2")
+canvas = Canvas(root,width=1000,height=800,background="white",cursor="hand2")
 canvas.place(x=100,y=10)
 
 canvas.bind('<Button-1>', locate_xy)
