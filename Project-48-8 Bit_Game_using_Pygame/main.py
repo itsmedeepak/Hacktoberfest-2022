@@ -1,5 +1,4 @@
-# Python program to demonstrate
-# 8 bit game
+# Here's code
 
 
 import pygame
@@ -7,7 +6,7 @@ import sys
 import random
 
 
-# initialize the constructor
+
 pygame.init()
 res = (720, 720)
 
