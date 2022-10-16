@@ -1,7 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as py
 import matplotlib.patches as patch
-#Plotting the tri colours in national flag
+
+# Colour Flag
 a = patch.Rectangle((0,1), width=12, height=2, facecolor='green', edgecolor='grey')
 b = patch.Rectangle((0,3), width=12, height=2, facecolor='white', edgecolor='grey')
 c = patch.Rectangle((0,5), width=12, height=2, facecolor='#FF9933', edgecolor='grey')
