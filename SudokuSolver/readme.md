@@ -1,4 +1,4 @@
-#Sudoku Solver Using Backtracking
+# Sudoku Solver Using Backtracking
 
 Run main.py to view the game
 
