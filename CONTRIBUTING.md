@@ -17,6 +17,6 @@
    
    7. Create a Pull Request
    
-   8. Keep patience for the project maintainer to review and merge the PR
+   8. Keep patience for the project maintainer to review and merge it
    
 ```
