@@ -31,7 +31,7 @@ def partition(elements, start, end):
 def quick_sort(elements, start, end):
     if start < end:
         pi = partition(elements, start, end)
-        quick_sort(elements, start, pi-1)  #left
+        quick_sort(elements, start, pi-1)  
         quick_sort(elements, pi+1, end)    #right
  
 
