@@ -1,6 +1,4 @@
-# #!/bin/python3  
 
-# #Time: O(nlog(n)) | Space: O(nlog(n))
 def swap(elements, a, b):
     if a!=b:
         tmp = elements[a]
